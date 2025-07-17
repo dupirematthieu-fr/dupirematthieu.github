@@ -1,3 +1,7 @@
+# Pour ce programme j'ai repris le précédent programme proposé dans l'exercice en y apportant des modifications: dans la variable figure j'utilise 'qte' en 'values'
+# 'region' en 'names' et je modifie le titre par 'quantité vendue par région'. De la même manière je modifie le nom du fichier html créé par 'ventes-par-région.html'
+# Le résultat sous forme de graphique est disponible dans le document Word "Projet_Analyse_des_ventes_PME_DUPIRE_Matthieu.docx" disponible dans le Github.
+
 import plotly.express as px
 import pandas as pd
 
