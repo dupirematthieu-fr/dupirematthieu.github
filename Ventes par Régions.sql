@@ -3,5 +3,5 @@
 
 SELECT c5 , SUM(c4) AS ventes_par_region , SUM(c3*c4) AS chiffre_d_affaire_par_region
 FROM ventes
-WHERE c5 != 'region'
+WHERE c5 <> 'region'
 GROUP BY c5
